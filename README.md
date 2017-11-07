@@ -4,11 +4,11 @@ Automatically fill up faculty feedback forms on [amizone.net](https://amizone.ne
 ## Usage
 
 1. Open faculty feedback page
-2. Hit `Ctrl+Shift+i` to open developer console, 
-3. Paste the script in the console.
-4. Select your choice.
-5. Enter your comment.
-6. Click `Submit`.
+2. Hit `Ctrl+Shift+i` to open developer console
+3. Paste the [script](https://raw.githubusercontent.com/prakashdanish/amizone-faculty-feedback-script/master/script.js) in the console
+4. Select your choice
+5. Enter your comment
+6. Click `Submit`
 7. Done
 
 ## Note

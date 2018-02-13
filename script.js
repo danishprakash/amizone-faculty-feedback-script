@@ -6,10 +6,10 @@ for (var i = 1; i <= 5; i++) {
 	var j;
 
 	switch(i) {
-		case 1: j=5; break;
+		case 1: j=4; break;
 		case 2: j=8; break;
-		case 3: j=7; break;
-		case 4: j=5; break;
+		case 3: j=5; break;
+		case 4: j=3; break;
 		case 5: j=5; break;
 	}
 
@@ -18,7 +18,10 @@ for (var i = 1; i <= 5; i++) {
 	}
 }
 
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 5; i++) {
+	if  (i == 3) {
+		continue;
+	}
 	document.getElementById('ctl00_ContentPlaceHolder1_rdbQuestion' + i + '_0').checked = 'true';
 }
 
